@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.card {
+  display: inline-block;
+
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 2px solid #4caf50;
+  background-color: white;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.card[data-state="danger"] {
+  border-color: red;
+  background-color: #ffdddd;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.log-box {
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 150px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

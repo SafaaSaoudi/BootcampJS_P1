@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Combat JS - Partie 4</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Mini Combat JS - Partie 4</h1>
+
+  <!-- Parent div pour tester la propagation -->
+  <div id="game-area">
+
+    <!-- Carte du joueur -->
+    <div id="player-card" class="card" data-state="normal">
+      <h2>Warrior</h2>
+      <p id="player-stats">PV : 100</p>
+    </div>
+
+    <!-- Carte du monstre -->
+    <div id="monster-card" class="card" data-state="normal">
+      <h2>Monster</h2>
+      <p id="monster-stats">PV : 80</p>
+    </div>
+
+    <!-- Bouton Attack -->
+    <button id="attack-btn">Attack</button>
+
+  </div>
+  <h2>📜 Log du jeu</h2>
+  <div id="log" class="log-box"></div>
+
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
